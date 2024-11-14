@@ -1,11 +1,10 @@
-<script setup>
-import parent from './components/parent.vue';
-
-</script>
-
 <template>
-
-<parent />
-
+  <router-view /> <!-- Main view to render the pages -->
 </template>
 
+<script setup>
+</script>
+
+<style>
+/* Any global styles go here */
+</style>

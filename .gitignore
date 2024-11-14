@@ -29,6 +29,4 @@ coverage
 
 *.tsbuildinfo
 
-# personally adding
-
 /node_modules
