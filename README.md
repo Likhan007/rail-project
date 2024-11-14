@@ -1,6 +1,6 @@
-# tailwind
+# RAIL TRACKING BD
 
-This template should help get you started developing with Vue 3 in Vite.
+This project will be deployed in https://www.railtrackingbd.com when completed
 
 ## Recommended IDE Setup
 
