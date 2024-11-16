@@ -35,7 +35,7 @@ function signUpUser() {
     <!-- Right Section with Signup Form -->
     <div class="w-1/2 flex justify-center items-center bg-gray-100">
       <div class="bg-white w-full border border-green-600 max-w-md p-8 rounded-2xl shadow-lg ">
-        <div class="bg-green-600 text-white text-xl font-semibold py-3 px-6 rounded-t-lg text-center">
+        <div class="bg-green-600 text-white text-xl font-semibold py-3 px-6 rounded-2xl text-center">
           Sign Up for Train Tracker BD
         </div>
         <form @submit.prevent="signUpUser" class="pt-6 space-y-4">
@@ -103,7 +103,8 @@ function signUpUser() {
           </button>
           <p class="text-center text-sm mt-4">
             Already have an account?
-            <a href="#" class="text-green-500 hover:underline font-medium">Login Now</a>
+            <!-- <a href="./Login.vue" class="text-green-500 hover:underline font-medium">Login Now</a> -->
+            <router-link to="/" class="text-green-500 hover:underline font-medium">Login Now</router-link>
           </p>
         </form>
       </div>

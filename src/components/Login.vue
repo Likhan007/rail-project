@@ -28,7 +28,7 @@ function loginUser() {
     <!-- Right Section with Login Form -->
     <div class="w-1/2 flex justify-center items-center bg-gray-100">
       <div class="bg-white w-full border border-green-600 max-w-md p-8 rounded-2xl shadow-lg ">
-        <div class="bg-green-600 text-white text-xl font-semibold py-3 px-6 rounded-t-lg text-center">
+        <div class="bg-green-600 text-white text-xl font-semibold py-3 px-6 rounded-2xl text-center">
           Login to Train Tracker BD
         </div>
         <form @submit.prevent="loginUser" class="pt-6 space-y-4">
