@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import SignUp from '@/components/SignUp.vue';
 import Login from '@/components/Login.vue';
+import SearchPage from '@/components/SearchPage.vue'; // Import the new component
 
 const routes = [
   {
@@ -9,9 +10,14 @@ const routes = [
     component: Login,
   },
   {
-    path: '/SignUp',
+    path: '/signup',
     name: 'SignUp',
     component: SignUp,
+  },
+  {
+    path: '/search', // Add this route for the Search Page
+    name: 'SearchPage',
+    component: SearchPage,
   },
 ];
 
